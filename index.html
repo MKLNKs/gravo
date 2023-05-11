@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/modal.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>GRAVO</title>
+</head>
+<body>
+<div class="container">
+
+  <div class="hide">
+    <form class="modal__content">
+      <div class="escBtn">&times;</div>
+      <div class="modal__title">Замовлення зворотного дзвінка</div>
+      <label for="name" class="modal__label">Ім'я</label>
+      <input placeholder="Мене звати ..." name="name" type="text" id="name" class="modal__input">
+      <label for="phone" class="modal__label">Мій номер телефону</label>
+      <input placeholder="+38 099 000 36 30" name="phone" type="tel" id="phone" class="modal__input">
+      <button class="modal__btn">Передзвоніть мені</button>
+    </form>
+  </div>
+  <header class="header">
+    <div class="logo">
+      <a href="https://gravo.com.ua/ua"> <img class="header__logo" src="img/header/gravo_new_UA_logo.png"
+                                              alt="логотип GRAVO">
+      </a>
+    </div>
+
+    <nav class="navbar">
+      <ul class="navbar__menu">
+        <li class="header__drop-down">
+          <a href="#">Різання</a>
+          <ul class="drop-down_list">
+            <li><a href="#">Лазерне різання фанери</a></li>
+            <li><a href="#">Лазерне різання оргскла (акрил)</a></li>
+            <li><a href="#">Лазерне різання МДФ</a></li>
+            <li><a href="#">Лазерне різання ДВП</a></li>
+            <li><a href="#">Лазерне різання картону, бумаги</a></li>
+          </ul>
+        </li>
+        <li class="header__drop-down">
+          <a href="#">Гравіювання</a>
+          <ul class="drop-down_list">
+            <li><a href="#">Лазерне гравіювання дерева, фанери</a></li>
+            <li><a href="#">Лазерне гравіювання оргскла (акрил)</a></li>
+            <li><a href="#">Лазерне гравіювання на склі</a></li>
+            <li><a href="#">Лазерне гравіювання на камені</a></li>
+            <li><a href="#">Лазерне гравіювання на бамбуці</a></li>
+          </ul>
+        </li>
+        <li class="header__drop-down">
+          <a href="#">Меню</a>
+          <ul class="drop-down_list">
+            <li><a href="#">Вимоги до макетів</a></li>
+            <li><a href="#">Контакти</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header__right-block">
+      <div class="header__right-block__phone">
+        <a href="tel:+380990003630">+38 (099) 000-36-30</a>
+      </div>
+
+      <button class="header__right-block__btn callback-btn">Замовити дзвінок</button>
+
+      <div class="header__right-block__lang">
+        <a class="header__right-block__lang__ru" href="https://gravo.com.ua">ru&#160</a>|&#160ua
+      </div>
+    </div>
+
+    <div class="header__mobile">
+      <input id="menu-toggle" type="checkbox"/>
+      <label class='menu-button-container' for="menu-toggle">
+        <span class='menu-button'></span>
+      </label>
+      <ul class="mobile__drop-down_list">
+        <li class="mobile__drop-down_item"><a href="tel:+380990003630">+38 (099) 000-36-30</a></li>
+        <li class="mobile__drop-down_item">Різання</li>
+        <li class="mobile__drop-down_elem"><a href="#">Лазерне різання фанери</a></li>
+        <li class="mobile__drop-down_elem"><a href="#">Лазерне різання оргскла (акрил)</a></li>
+        <li class="mobile__drop-down_elem"><a href="#">Лазерне різання МДФ</a></li>
+        <li class="mobile__drop-down_elem"><a href="#">Лазерне різання ДВП</a></li>
+        <li class="mobile__drop-down_elem"><a href="#">Лазерне різання картону, бумаги</a></li>
+        <li class="mobile__drop-down_item">Гравіювання</li>
+        <li class="mobile__drop-down_elem"><a href="#">Лазерне гравіювання дерева, фанери</a></li>
+        <li class="mobile__drop-down_elem"><a href="#">Лазерне гравіювання оргскла (акрил)</a></li>
+        <li class="mobile__drop-down_elem"><a href="#">Лазерне гравіювання на склі</a></li>
+        <li class="mobile__drop-down_elem"><a href="#">Лазерне гравіювання на камені</a></li>
+        <li class="mobile__drop-down_elem"><a href="#">Лазерне гравіювання на бамбуці</a></li>
+        <li class="mobile__drop-down_item">Меню</li>
+        <li class="mobile__drop-down_elem"><a href="#">Вимоги до макетів</a></li>
+        <li class="mobile__drop-down_elem"><a href="#">Контакти</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="first-screen">
+      <h1>Лазерне різання та лазерне гравіювання СО<span class="small-register">2</span> у Києві</h1>
+      <h3 class="first-screen__description">Фанера, дерево, оргскло (акрил), МДФ, ДВП, пластики, картон, папір, силікон,
+        ПЕТ, поролон, бамбук, фетр, скло, камінь, поліуретан, поліпропілен і т.д.</h3>
+    </div>
+
+<!--    <div class="services">-->
+<!--      <h2>Наші послуги з різання та гравіювання</h2>-->
+<!--      <div class="services-elements-block">-->
+<!--        <div class="services-elem services-elem1">-->
+<!--          <h3 class="service-elem-title">Лазерне різання фанери</h3>-->
+<!--        </div>-->
+<!--        <div class="services-elem services-elem2">-->
+<!--          <h3 class="service-elem-title"></h3>-->
+<!--        </div>-->
+<!--        <div class="services-elem services-elem3">-->
+<!--          <h3 class="service-elem-title"></h3>-->
+<!--        </div>-->
+<!--        <div class="services-elem services-elem4">-->
+<!--          <h3 class="service-elem-title"></h3>-->
+<!--        </div>-->
+<!--        <div class="services-elem services-elem5">-->
+<!--          <h3 class="service-elem-title"></h3>-->
+<!--        </div>-->
+<!--        <div class="services-elem services-elem6">-->
+<!--          <h3 class="service-elem-title"></h3>-->
+<!--        </div>-->
+<!--        <div class="services-elem services-elem7">-->
+<!--          <h3 class="service-elem-title"></h3>-->
+<!--        </div>-->
+<!--        <div class="services-elem services-elem8">-->
+<!--          <h3 class="service-elem-title"></h3>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+  </main>
+
+  <!--  <footer class="footer"></footer>-->
+
+</div>
+
+
+<script src="js/modal.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

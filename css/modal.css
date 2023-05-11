@@ -1,0 +1,116 @@
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    transition: all 0.8s ease 0s;
+    z-index: 10;
+}
+
+.modal__content {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px #1c1c1c;
+}
+
+.modal__title::selection,
+.modal__title::-moz-selection {
+    background-color: #7a7c7c;
+    color: #fff;
+}
+
+.modal__label {
+    color: #212529;
+    font-size: 12px;
+    margin: 30px 0 5px 0;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.modal__label::selection,
+.modal__label::-moz-selection {
+    background-color: #7a7c7c;
+    color: #fff;
+}
+
+.modal__input, .modal__btn {
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(206, 214, 224);
+    font-size: 14px;
+}
+
+.modal__input:hover {
+    border-color: #3d9cff;
+}
+
+.modal__input:focus {
+    border-color: #3d9cff;
+    box-shadow: 0 10px 20px -13px rgb(32 56 117 / 35%);
+    outline: none;
+}
+
+.modal__input::selection {
+    background-color: #7a7c7c;
+    color: #fff;
+}
+
+.modal__input::-moz-selection {
+    background-color: #7a7c7c;
+    color: #fff;
+}
+
+.modal__btn {
+    margin-top: 20px;
+    background: #2364d2;
+    box-shadow: 3px 10px 20px 0 rgb(35 100 210 / 30%);
+    color: white;
+    cursor: pointer;
+}
+
+.modal__btn::selection,
+.modal__btn::-moz-selection {
+    background-color: #7a7c7c;
+    color: #fff;
+}
+
+.modal__btn:hover {
+    background: #1b5ed0;
+}
+
+.modal__input:focus::placeholder {
+    font-size: 10px;
+    transform: translateY(-15px);
+    transition: transform 300ms;
+}
+
+input {
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 0 12px 0 12px;
+}
+
+.escBtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-family: "Rubik Medium", sans-serif;
+    font-size: 30px;
+    color: grey;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}

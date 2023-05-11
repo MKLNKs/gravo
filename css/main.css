@@ -1,0 +1,175 @@
+.first-screen {
+    background-image: url("/img/first-block-create.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: 100% 100vh;
+    height: 100vh;
+}
+
+h1 {
+    color: #3d3d3d;
+    width: 750px;
+    padding: 10% 1% 20px 10%;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 4rem;
+    text-shadow: 1px 1px #ffffff;
+}
+
+.first-screen__description {
+    color: #808080;
+    width: 45%;
+    padding-left: 10%;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-shadow: 1px 1px #ffffff;
+}
+
+.small-register {
+    font-size: 20px;
+}
+
+@media (min-height: 900px) {
+    .first-screen {
+        background-image: url("/img/first-block-create-mobile.jpg");
+    }
+
+    h1 {
+        padding: 20% 1% 40px 10%;
+    }
+
+    .first-screen__description {
+        width: 60%;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 754.1px) and (max-width: 999.9px) {
+    h1 {
+        width: 100%;
+        font-size: 45px;
+        line-height: 4rem;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 754px) {
+    .first-screen {
+        background-image: url("/img/first-block-create-mobile.jpg");
+    }
+
+    h1 {
+        width: 80%;
+        font-size: 38px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 639.9px) {
+    .first-screen {
+        background-image: url("/img/first-block-create-mobile.jpg");
+    }
+
+    h1 {
+        width: 90%;
+        font-size: 24px;
+        line-height: 2.5rem;
+    }
+
+    .first-screen__description {
+        width: 90%;
+        font-size: 14px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 640px) and (max-width: 754px) {
+    .first-screen {
+        background-image: url("/img/first-block-create-mobile.jpg");
+    }
+
+    h1 {
+        padding: 5% 1% 80px 5%;
+        line-height: 3rem;
+    }
+
+    .first-screen__description {
+        display: none;
+    }
+}
+
+/* SERVICES BLOCK */
+.services {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+h2 {
+    color: #3d3d3d;
+    font-size: 42px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.services-elements-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.services-elem {
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: all ease-in-out .45s;
+    cursor: pointer;
+    flex: 0 1 270px;
+    background-size: 100% 100%;
+    box-shadow: 3px 10px 20px 0 rgb(35 100 210 / 30%);
+    color: white;
+}
+
+.services-elem1 {
+    background-image: url("../img/services/lazerne-rizannya-fanera.jpg");
+}
+
+.services-elem2 {
+    background-image: url("../img/services/lazerne-rizannya-akril.jpg");
+}
+
+.services-elem3 {
+    background-image: url("../img/services/lazerne-rizannya-mdf.png");
+}
+
+.services-elem4 {
+    background-image: url("../img/services/lazerne-rizannya-dvp.png");
+}
+
+.services-elem5 {
+    background-image: url("../img/services/graviyuvannya-fanera.png");
+}
+
+.services-elem6 {
+    background-image: url("../img/services/graviyuvannya-orgsklo.png");
+}
+
+.services-elem7 {
+    background-image: url("../img/services/graviyuvannya-sklo.png");
+}
+
+.services-elem8 {
+    background-image: url("../img/services/graviyuvannya-kamin.jpg");
+}
+
+@media (min-width: 320px) and (max-width: 639.9px) {
+    h2 {
+        font-size: 22px;
+        line-height: 2rem;
+    }
+}
