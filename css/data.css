@@ -1,0 +1,43 @@
+.data {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.data__advantages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.data__advantages__elem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    width: 260px;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+}
+
+.data__number {
+    font-size: 42px;
+    font-weight: 700;
+    color: #3d3d3d;
+    margin-bottom: 20px;
+}
+
+.data__number + hr {
+    width: 100%;
+    border: 1px solid red;
+    margin-bottom: 20px;
+}
+
+.data__advantages__description {
+    line-height: 1.5rem;
+}
