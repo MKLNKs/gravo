@@ -1,7 +1,7 @@
 .first-screen {
     background: url("../img/first-block/first-block-create.jpg") no-repeat fixed top;
     background-size: 100% 100vh;
-    height: 100vh;
+    height: 720px;
 }
 
 h1 {
@@ -107,7 +107,7 @@ h1 {
 h2 {
     color: #3d3d3d;
     font-size: 42px;
-    margin: 40px auto;
+    margin: 60px auto;
     text-align: center;
     padding: 0 20px;
 }
@@ -120,7 +120,7 @@ h2 {
     margin: 0 auto;
 }
 
-.service-elem-title{
+.service-elem-title {
     line-height: 1.3rem;
 }
 
@@ -138,40 +138,40 @@ h2 {
     color: white;
 }
 
-.services-elem:hover{
+.services-elem:hover {
     background-size: 110%;
 }
 
 .services-elem1 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/services/lazerne-rizannya-fanera.jpg") center center / cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/services/lazerne-rizannya-fanera.jpg") center center / cover no-repeat;
 }
 
 .services-elem2 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/services/lazerne-rizannya-akril.jpg") center center / cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/services/lazerne-rizannya-akril.jpg") center center / cover no-repeat;
 }
 
 .services-elem3 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/services/lazerne-rizannya-mdf.jpg") center center / cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/services/lazerne-rizannya-mdf.jpg") center center / cover no-repeat;
 }
 
 .services-elem4 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/services/lazerne-rizannya-dvp.jpg") center center / cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/services/lazerne-rizannya-dvp.jpg") center center / cover no-repeat;
 }
 
 .services-elem5 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/services/graviyuvannya-fanera.jpg") center center / cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/services/graviyuvannya-fanera.jpg") center center / cover no-repeat;
 }
 
 .services-elem6 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/services/graviyuvannya-orgsklo.jpg") center center / cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/services/graviyuvannya-orgsklo.jpg") center center / cover no-repeat;
 }
 
 .services-elem7 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/services/graviyuvannya-sklo.jpg") center center / cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/services/graviyuvannya-sklo.jpg") center center / cover no-repeat;
 }
 
 .services-elem8 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/services/graviyuvannya-kamin.jpg") center center / cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/services/graviyuvannya-kamin.jpg") center center / cover no-repeat;
 }
 
 @media (min-width: 320px) and (max-width: 639.9px) {
